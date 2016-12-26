@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Alex on 26.12.2016.
- */
 public class MessageService {
 
     private Map<Long, Message> messages = DatabaseClass.getMessages();
@@ -44,18 +41,4 @@ public class MessageService {
     public Message removeMessage(long id) {
         return messages.remove(id);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
